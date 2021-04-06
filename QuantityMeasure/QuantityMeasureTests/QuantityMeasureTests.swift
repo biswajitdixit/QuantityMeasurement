@@ -340,7 +340,7 @@ class QuantityMeasureTests: XCTestCase {
     func given0FahrenheitAnd1Celcius_WhenNotEqual_ShouldReturnTrue(){
         let quantitymeasurement = QuanityMeasurement()
         let fharenhite = 0.0
-        let celsius = quantitymeasurement.returnTemperature(unit:.Fahrenhite, value:1.0)
+        let celsius = quantitymeasurement.returnTemperature(unit:.Celsius, value:1.0)
         XCTAssertNotEqual(fharenhite,celsius )
         
     }
